@@ -31,6 +31,8 @@
  * http://marlinfw.org/tools/u8glib/converter.html
  */
 
+#ifdef CUSTOM_STATUS_SCREEN_IMAGE
+
 //
 // Status Screen Logo bitmap
 //
@@ -60,3 +62,5 @@ const unsigned char status_logo_bmp[] PROGMEM = {
   #define STATUS_HEATERS_X      40
   #define STATUS_BED_X          80
 #endif
+
+#endif /* CUSTOM_STATUS_SCREEN_IMAGE */
